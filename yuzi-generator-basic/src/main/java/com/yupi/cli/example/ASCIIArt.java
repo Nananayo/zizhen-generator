@@ -6,7 +6,7 @@ import picocli.CommandLine.Option;
 import picocli.CommandLine.Parameters;
 
 @Command(name = "ASCIIArt", version = "ASCIIArt 1.0", mixinStandardHelpOptions = true) 
-public class ASCIIArt implements Runnable { 
+public class ASCIIArt implements Runnable {
 
     @Option(names = { "-s", "--font-size" }, description = "Font size") 
     int fontSize = 19;
